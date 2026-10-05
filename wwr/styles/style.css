@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Mountains+of+Christmas:wght@400;700&family=Unkempt:wght@400;700&display=swap');
+
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#background {
+    height: 725px;
+    background-color: #178064; 
+}
+nav a {
+    text-align: center;
+    color: #178064;
+    text-decoration: none;
+    font-family: Unkempt, 'Bradley Hand', Georgia, sans-serif;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: #679ec0;
+    color: #b4e0d7;
+}
+#hero-msg h1 {
+    text-align: center;
+}
+#hero-msg h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.msg {
+    background-color: #ecf5f6;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg h2 {
+    color: #178064;
+    font-family: 'Happy Penny', 'Mountains of Christmas', Georgia, 'Times New Roman', Times, serif;
+}
+.msg p {
+    color: #679ec0;
+    font-family: Unkempt, 'Bradley Hand', Georgia, sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+h2 {
+    color: #b4e0d7;
+    text-align: center;
+    font-family:Unkempt, 'Bradley Hand', Georgia, sans-serif;
+    margin: 0;
+}
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+main section img {
+    box-sizing: border-box;
+}
+body {
+    background-color: #679ec0;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #b4e0d7;
+}
+
+.book, .join {
+    background-color: #679ec0;
+    color: #b4e0d7;
+    text-decoration: none;
+    font-family: Unkempt, 'Bradley Hand', Georgia, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book:hover, .join:hover {
+    background-color: #b4e0d7;
+    color: #178064;
+}
+
+footer {
+    background-color: #0e2e42; /*#679ec0*/
+    color: #ecf5f6;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer a {
+    color: #ecf5f6;
+    text-decoration: none;
+}
+foorter a:hover {
+    color: #b4e0d7;
+}
+footer p {
+    font-size: 1.2em;
+    font-family: Unkempt, 'Bradley Hand', Georgia, sans-serif;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.home-title {
+    color: #178064;
+    text-align: center;
+    font-family:'Happy Penny', 'Mountains of Christmas', Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.logo {
+    width: 80px;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+#hero-img {
+    width: 100%;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin:200px 0;
+}
+.card-img {
+    border: 10px solid #ecf5f6;
+}

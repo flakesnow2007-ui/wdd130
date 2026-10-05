@@ -1,0 +1,50 @@
+img {
+    width: 400px;
+    /* could do 300%, which is more responsive to the page */
+    /* property names are already set (can't make them up) so if you don't know one look it up */
+    border-radius: 15px;
+}
+body {
+    background-color: rgb(97, 138, 194);
+    text-align: center;
+    margin: 0;
+}
+#content {
+    background-color: rgb(97, 138, 194);
+    max-width: 1600px;
+    margin: 0 auto;
+    padding:20px;
+
+}
+/*same way to do notes as ctrl +/ */
+header, footer {
+    background-color: rgb(193, 187, 187);
+    padding: 20px; /*padding helps widen the header and footer sizes */
+    padding: 50px
+}
+nav a { /*now only affects the nav part on browser*/
+    text-decoration: none;
+    color: rgb(201, 46, 46);
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 50%;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: purple;
+}
+
+
+p{
+    font-size: 1.5em;
+    
+}
+
+#second { /*hashtag is for id's*/
+    font-size: 3em;
+}
+
+.emphasis { /*dots are for classes*/
+    color: purple;
+}
