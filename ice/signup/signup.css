@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(120, 96, 64);
+    font-family: Georgia, 'Times New Roman', serif;
+    margin: 0;
+    padding: 20px;
+}
+
+#formContainer {
+    width: 520px;
+    margin: 0 auto;
+    background-color: white;
+    border: 12px solid #182b96;
+    border-radius: 38px;
+    overflow: hidden;
+}
+
+.hero {
+    height: 212px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    left: 0;
+}
+
+.hero header {
+    position: relative;
+    padding-top: 85px;
+    font-size: 42px;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px black;
+}
+
+.hero h2 {
+    position: relative;
+    margin: 0;
+    font-size: 32px;
+    text-shadow: 2px 2px 0px black;
+}
+
+#closeBtn {
+    position: absolute;
+    top: 14px;
+    left: 18px;
+    z-index: 2;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+h3 {
+    text-align: center;
+    font-size: 23px;
+    margin: 24px 10px;
+}
+
+#myForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 20px 10px;
+    padding: 0 24px 24px;
+    font-size: 18px;
+}
+
+#myForm > input {
+    width: 100%;
+    height: 27px;
+    font-size: 16px;
+}
+
+.gender {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    gap: 3px;
+}
+
+.gender label {
+    margin-right: 3px;
+}
+
+.gender input {
+    margin: 0;
+}
+
+#myForm section {
+    grid-column: 1 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#myForm section input {
+    margin-right: 5px;
+}
+
+#myForm section label {
+    white-space: nowrap;
+}
+
+#myForm .submit button {
+    font-size: 16px;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+.scripture-links {
+    gap: 4px;
+    background-color: #171717;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.scripture-links img {
+    width: 100%;
+    height: 125px;
+    object-fit: contain;
+    background-color: #171717;
+    border-right: 3px solid white;
+    padding: 10px 4px;
+}
+.scripture-links img:last-child {
+    border-right: none;
+}
